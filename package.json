@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.7.2",
+    "react-icons": "^4.7.1",
+    "react-ionicons": "^4.2.0",
+    "react-native-ionicons": "^4.6.5",
+    "react-router-dom": "^6.8.1"
+  }
+}

@@ -1,0 +1,183 @@
+
+.background{
+  position: absolute;
+  top: -10vh;
+  left: -40vw;
+  background: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  height: 103.7vh;
+  width: 104.9vw;
+}
+.App {
+  text-align: center;
+  align-items: center;
+  width: 30vw;
+  position:absolute;
+  align-items: center;
+  align-self: center;
+  top: 7vh;
+  left: 34vw;
+  border-radius: 50px;
+  border: 3px solid white;
+  padding: 6px;
+  backdrop-filter: blur(14px);
+  background: transparent;  
+}
+
+.sp,.remember{
+  color: white;
+}
+.photo{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 30vw;
+  height: 60vh;
+}
+.photo1{
+  position: absolute;
+  right: 60px;
+  width: 25vw;
+  height: 60vh;
+  top:20px;
+}
+.logo{
+  height: 20vh;
+}
+.logo:hover{
+  opacity: 0.7;
+  pointer-events: painted;
+  cursor: pointer;
+}
+
+.heading{
+  color: white;
+  cursor: default;
+}
+.login{
+  margin: 10px;
+  width: 15vw;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(19, 155, 223);
+  background: transparent;
+}
+.login:hover{
+  cursor: pointer;
+  opacity: 0.7;  
+  background: blue;
+}
+
+.details{
+  width: 18vw;
+  height: 5vh;
+  margin: 6px;
+  padding: 5px;
+}
+.forgotpassword:hover{
+  cursor: pointer;
+}
+.pass,.signup{
+  text-decoration: none;
+  color: rgb(20, 206, 215)
+}
+
+.head{
+  position: absolute;
+  left: 8vw;
+  top:0.5vh;
+  width: 6vw;
+  height: 9vh;
+}
+.hr{
+  opacity: 0.4;
+}
+.lock{
+  width: 60px;
+}
+.App2{
+  text-align: center;
+  align-items: center;
+  width: 25vw;
+  position:absolute;
+  align-items: center;
+  align-self: center;
+  top: 27vh;
+  left: 37vw;
+  border-radius: 30px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  padding: 6px;
+}
+.detail{
+  opacity: 0.4;
+}
+.btnlogin{
+  width: 15vw;
+  background-color: rgb(40, 40, 180);
+  border-radius: 5px;
+  height: 5vh;
+  color: white;
+  opacity: 0.6;
+}
+.btnlogin:hover{
+  cursor: pointer;
+}
+.btnlogin:active{
+  background: black;
+}
+.help{
+  text-decoration: none;
+  color: rgb(102, 184, 212);
+}
+.span{
+  padding: 6px;
+}
+.signup1{
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 4vh;
+  width: 14vw;
+  padding: 5px;
+  margin: 8px;
+}
+.App1{
+  text-align: center;
+  align-items: center;
+  width: 25vw;
+  position:absolute;
+  align-items: center;
+  align-self: center;
+  top: 17vh;
+  left: 37vw;
+  border-radius: 30px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  padding: 6px;
+}
+.button{
+  background: transparent;
+  border-radius: 6px;
+  margin: 10px;
+  width: 130px;
+  height: 40px;
+  font-size: medium;
+  border: none;
+}
+.button:hover{
+  cursor: pointer;
+  /* color: gray; */
+  background-color: gray;
+  opacity: 0.3;
+  border: none;
+}
+.story{
+  position: absolute;
+  top: 0px;
+  left: 20vw;
+  text-align: center;
+  width: 60vw;
+  height: 20vh;
+  border: 3px solid black;
+}
